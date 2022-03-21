@@ -1,0 +1,7 @@
+{
+  // --- VSCode Related Settings ---
+  // Editor
+  "editor.tabSize": 4,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false
+}

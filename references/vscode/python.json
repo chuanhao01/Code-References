@@ -1,0 +1,28 @@
+// Python related settings I usually use
+{
+  // --- Python
+  "python.formatting.provider": "black",
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.lintOnSave": true,
+  // Ran with the python interpreter
+  "python.formatting.blackPath": "black",
+  "python.linting.pylintPath": "pylint",
+  "python.linting.pylintCategorySeverity.convention": "Warning",
+  "python.linting.pylintCategorySeverity.refactor": "Warning",
+  "python.linting.mypyPath": "mypy",
+  "python.linting.mypyArgs": [
+    "--config-file=${workspaceFolder}/pyproject.toml"
+  ],
+  "python.linting.mypyCategorySeverity.note": "Warning",
+  // Needs full path because it is not ran by the python interpreter
+  "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+  // For python actions, also change ruler to be 100
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.rulers": [100]
+  }
+}

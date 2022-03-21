@@ -1,0 +1,21 @@
+{
+  // --- Other Language settings ---
+  // --- JSONC
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // --- Markdown
+  "[markdown]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // --- Extensions Related Settings ---
+  // Markdownlint
+  "markdownlint.config": {
+    "MD007": { "indent": 2 },
+    "MD024": false,
+    "MD025": false
+  }
+}
