@@ -1,0 +1,17 @@
+# type: ignore
+# pylint: disable-all
+
+def phony_target(target: str, action: str, env=None):
+    if not env:
+        env = DefaultEnvironment()
+    return env.AlwaysBuild(env.Alias(target, [], action))
+
+_ = ARGUMENTS.get()
+
+
+a_help = """
+@echo Base Commands:
+@echo run, _=""
+@echo
+"""
+Default(phony_target("help", a_help))
