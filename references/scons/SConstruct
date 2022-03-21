@@ -10,6 +10,8 @@ _ = ARGUMENTS.get()
 
 
 a_help = """
+@echo Usage: scons -Q [command][args...]
+@echo
 @echo Base Commands:
 @echo run, _=""
 @echo
