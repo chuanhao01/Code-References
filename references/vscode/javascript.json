@@ -1,8 +1,5 @@
 {
   // General
-  "editor.tabSize": 2,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
   "[javascript][javascriptreact][typescript][typescriptreact][jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [100],
@@ -29,11 +26,5 @@
       "source.fixAll.eslint": true
     }
   },
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-      "source.fixAll": true
-    }
-  }
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
