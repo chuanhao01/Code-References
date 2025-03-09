@@ -1,4 +1,4 @@
-PATH_TO_PROJECT_ROOT = ../../..
+PATH_TO_PROJECT_ROOT = ../..
 
 # Help Commands
 .PHONY: default
